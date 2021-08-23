@@ -12,20 +12,20 @@ Interval arithmetic can result in wide intervals. Aspect which is welcome in som
 Garbage collection is a common cause of high time-complexity. Statical analysis should make that problem disappear. On that note, the choice of language is crutial.
 The cost and benefits change from codebase to codebase.
 So analyse the cost and benefits of each calling each of the functions with floating-points vs. calling them with unums. 
-Add
-Subtract
-Multiply
-Divide
-Fused-multiply-add
-Fused-dot-product (with quire)
-Square root
-Convert posit to signed and unsigned integer
-Convert signed and unsigned integer to posit
-Convert posit to another posit size
-Less than, equal, less than equal comparison
-Round to nearest integer
-Helper functions
 
-convert double to posit
-convert posit to double
-cast unsigned integer to posit
+- Add
+- Subtract
+- Multiply
+- Divide
+- Fused-multiply-add
+- Fused-dot-product (with quire)
+- Square root
+- Convert posit to signed and unsigned integer
+- Convert signed and unsigned integer to posit
+- Convert posit to another posit size
+- Less than, equal, less than equal comparison
+- Round to nearest integer
+- Helper functions
+- convert double to posit
+- convert posit to double
+- cast unsigned integer to posit
