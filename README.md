@@ -1,4 +1,4 @@
-# UnumImplementation
+# Unum Implementation
 f64, f32, and other decimal numbers are used widely in physics simulation. But their use bring unwanted errors, for several reasons.
 Listed are some:
 computation w/ subnormal numbers : The results might end up too little or too big for representing it.
